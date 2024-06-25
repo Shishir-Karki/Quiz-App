@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+.panel {
+    background: rgba(37, 12, 12, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+}
+#heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #f2f0f0;
+}
+#ques {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f7f1f0;
+}
+#opt {
+    margin-bottom: 30px;
+}
+button {
+    background-color: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+}
+#score {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #333;
+}
+@media (max-width: 600px) {
+    .panel {
+        width: 100%;
+        margin: 10px;
+    }
+    button {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px 0;
+    }
+}
